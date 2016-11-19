@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700');
+
+body{
+	font: 400 22px/1.3 Lato, Arial, sans-serif;
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.ba-intro{
+	background: #094968 url('../img/hero.jpg') no-repeat 50%;
+	background-size: cover;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+.ba-intro__nav{
+	float: right;
+}
+.ba-intro__menu{
+	list-style: none;
+	margin: 0;
+	float: left;
+	padding: 0;
+	
+}
+.ba-intro__menu a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 25px;
+	vertical-align: middle;
+	letter-spacing: .25em;
+	font-size: 14px;
+}
+.ba-intro__menu li{
+	float: left;
+}
+.ba-intro__welcome{
+	max-width: 630px;
+	margin: 0 auto;
+	text-align: center;
+}
+.ba-intro__title{
+	text-align: center;
+	font: 700 48px/1.3 Raleway, Arial, sans-serif;
+	text-transform: uppercase;
+	margin-top: 245px;
+}
+[class*="ba-line"]{
+	text-align: center;
+}
+[class*="ba-line"]::after{
+	content: "";
+	display: inline-block;
+	width: 82px;
+	height: 2px;
+	margin: 0 auto;
+}
+.ba-line--white::after{
+	background: #FFF;
+}
+.ba-intro__subtitle{
+	font: 400 22px/1.36 Raleway, sans-serif;
+	margin-top: 47px;
+}
+.ba-intro__scroll{
+	margin-top: 255px;
+	display: block;
+}
+.ba-services{
+	padding: 115px 0;
+}
+.ba-services__title{
+	text-align: center;
+	font: 700 35px/1.3 Raleway, sans-serif;
+	text-transform: uppercase;
+}
+.ba-line--black::after{
+	background: #000;
+}
+.ba-services__blocks{
+	margin-top: 80px;
+}
+.ba-services__subtitle{
+	font-size: 24px;
+	line-height: 1.8;
+}
+.ba-services__description{
+	font-size: 16px;
+}
+.ba-dolore{
+	padding: 75px 0 0;
+	background: #212121 url('../img/dolorebg.jpg') no-repeat 50%;
+	background-size: cover;
+}
+.ba-dolore__title{
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+	color: #fff;
+	margin-bottom: 18px;
+}
+.ba-dolore__pic{
+	margin-left: 40%;
+}
+.ba-dolore__description{
+	font-weight: 100;
+	color: #FFF;	
+}
+.ba-dolore a{
+	font-size: 18px;
+	color: #FFF;
+	margin-top: 65px;
+	display: inline-block;
+}
+.ba-work{
+	padding: 118px 0 80px;
+	
+}
+.ba-work__exapmple{
+
+	display: block;
+}
+.ba-work__example:hover{
+	opacity: 0.45;
+}
+.ba-work__example--hover{
+	
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	
+	text-transform: uppercase;
+}
+.ba-work__example--hover:hover{
+	opacity: 1;
+}
+.ba-work__title{
+	font: 700 35px/1.3 Raleway, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+.ba-work__blocks{
+	margin-top: 88px;
+}
+.ba-work__button{
+	display: block;
+	margin: 0 auto;
+	width: 32%;
+	font-size: 24px;
+	text-transform: uppercase;
+	border: 2px solid #000;
+	line-height: 57px;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	margin-top: 80px;
+}
+.ba-work__button:hover{
+	color: #fff;
+	background: #000;
+	
+}
+.ba-footer{
+	background: #11171A url('../img/footerbg.jpg') no-repeat 50%;
+	background-size: cover;
+	padding: 114px 0 119px;
+}
+.ba-git__title{
+	font: 700 35px/1.3 Raleway, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+}
+.ba-git__sm{
+	text-align: center;
+	margin-right: -25px;
+	margin-top: 65px;
+	margin-bottom: 85px;
+}
+.ba-git__sm a{
+	margin-right: 25px;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	display: inline-block;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #bac8cb;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: transparent;
+	min-height: 40px;
+	line-height: 40px;
+	padding: 0 8px;
+	outline: none;
+	color: #727f82;
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 30px;
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-git__form{
+	text-align: center;
+}
+.ba-form__message{
+	width: 50%;
+}
